@@ -116,7 +116,7 @@ Veritabanı adı: `lost_found`
 
 ## Ekran Görüntüleri
 
-![Ana Sayfa](home.png)
+![Ana Sayfa](assets/home.png)
 )
 ![İlan Detay](screenshots/item-detail.png)
 ![Kullanıcı Profili](screenshots/profile.png)
