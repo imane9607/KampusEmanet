@@ -116,7 +116,8 @@ Veritabanı adı: `lost_found`
 
 ## Ekran Görüntüleri
 
-![Ana Sayfa](screenshots/home.png)
+![Ana Sayfa](![image](https://github.com/user-attachments/assets/c5256332-dea1-466b-a234-cc43407efbce)
+)
 ![İlan Detay](screenshots/item-detail.png)
 ![Kullanıcı Profili](screenshots/profile.png)
 
