@@ -3,7 +3,7 @@
 ![Kampüs Emanet Logo](assets/logo.png)
 
 ## Proje URL
-https://kampus-emanet.com
+[https://kampus-emanet.com](http://95.130.171.20/~st21360859223/index.php#home)
 
 ## Proje Açıklaması
 Kampüs Emanet, kampüs içinde kayıp ve bulunan eşyaların yönetimi için geliştirilmiş bir web uygulamasıdır. Sistemin amacı, öğrenciler ve personelin kayıp eşyalarını kolayca bildirebilmesi ve bulunan eşyaların sahiplerine ulaşmasını sağlamaktır.
