@@ -123,7 +123,7 @@ SQL yedeği: `lost_found.sql`
 
 ## 🎥 Video Demo
 
-🔗 [Video Demosu (Google Drive)](https://drive.google.com/file/d/12ONlWC8bFuIiAML5hbbhkhA6oPsQa0aA/view?usp=sharing)
+🔗 [Video Demosu (Google Drive)](https://drive.google.com/drive/folders/19i46a3-IMEXe4CzhoxJqyOfdOSaDnCLF?usp=sharing)
 
 ---
 
