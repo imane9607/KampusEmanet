@@ -1,141 +1,145 @@
-# Kampüs Emanet
+# 🎓 Kampüs Emanet
 
 ![Kampüs Emanet Logo](assets/logo.png)
 
-## Proje URL
-[https://kampus-emanet.com](http://95.130.171.20/~st21360859223/index.php#home)
+Kampüs Emanet, üniversite kampüslerinde kaybolan ve bulunan eşyaların bildirilmesini ve yönetilmesini sağlayan, kullanıcı dostu ve mobil uyumlu bir web tabanlı uygulamadır. Öğrenciler ve personel, eşyalarını kolayca ilan edebilir ve bulunan eşyaların sahiplerine ulaşması sağlanabilir.
 
-## Proje Açıklaması
-Kampüs Emanet, kampüs içinde kayıp ve bulunan eşyaların yönetimi için geliştirilmiş bir web uygulamasıdır. Sistemin amacı, öğrenciler ve personelin kayıp eşyalarını kolayca bildirebilmesi ve bulunan eşyaların sahiplerine ulaşmasını sağlamaktır.
+## 🔗 Proje URL
 
-## Proje Gereksinimleri
+[https://ibsar.art](https://ibsar.art)
 
-### Teknik Gereksinimler
-- **Backend**: Yalın PHP (frameworks kullanılmadı)
-- **Frontend**: Tailwind CSS
-- **Veritabanı**: MySQL
-- **Güvenlik**:
-  - Şifre hashleme (password_hash)
-  - Session tabanlı oturum yönetimi
-  - XSS koruması
-  - SQL injection koruması
+---
 
-### Özellikler
-- Kullanıcı kaydı ve oturum yönetimi
-- Kayıp/bulunan eşya kaydı
-- Eşya listesi görüntüleme
-- Eşya düzenleme
-- Eşya silme
-- Admin paneli
-- Kullanıcı yönetimi
+## 📌 İçindekiler
 
-### Uyumluluk
-- Responsive tasarım
-- Mobil uyumlu arayüz
-- Türkçe dil desteği
-- SEO uyumlu URL'ler
+- [Proje Açıklaması](#proje-açıklaması)
+- [Özellikler](#özellikler)
+- [Teknik Gereksinimler](#teknik-gereksinimler)
+- [Veritabanı Yapısı](#veritabanı-yapısı)
+- [Kurulum](#kurulum)
+- [Varsayılan Giriş Bilgileri](#varsayılan-giriş-bilgileri)
+- [Ekran Görüntüleri](#ekran-görüntüleri)
+- [Video Demo](#video-demo)
+- [Güvenlik Uyarısı](#güvenlik-uyarısı)
+- [Lisans](#lisans)
 
-### Veritabanı
-- 4 MySQL tablosu
-- Güvenli şifre depolama
-- Veri bütünlüğü kontrolü
-- İndeksleme optimizasyonu
-- MariaDB uyumlu
+---
 
-### Geliştirme Ortamı
-- XAMPP veya benzeri web sunucusu
-- PHP 8.0+ sürümü
-- MySQL 5.7+ sürümü
-- Modern tarayıcılar
+## 📖 Proje Açıklaması
 
-## Proje Açıklaması
-Kampüs Kayıp Eşya Yönetim Sistemi, kampüs içinde kayıp ve bulunan eşyaların yönetimi için geliştirilmiş bir web uygulamasıdır. Sistemin amacı, öğrenciler ve personelin kayıp eşyalarını kolayca bildirebilmesi ve bulunan eşyaların sahiplerine ulaşmasını sağlamaktır.
+Kampüs Emanet, kampüs içerisinde kaybolan veya bulunan eşyaların sisteme kaydedilerek listelenmesini sağlar. Kullanıcılar hem kayıp hem de bulunan eşyaları sisteme girebilir, güncelleyebilir ve takip edebilirler. Yönetici paneli ile sistem yönetimi kolaylaştırılmıştır.
 
-## Özellikler
+---
 
-### Kullanıcı Özellikleri
+## 🚀 Özellikler
+
+### 👤 Kullanıcı Özellikleri
 - Kullanıcı kayıt ve giriş
-- Şifreli oturum yönetimi
+- Şifrelenmiş oturum yönetimi
 - Kayıp eşya bildirimi
 - Bulunan eşya bildirimi
-- Eşya takibi ve yönetimi
-- Profil bilgileri düzenleme
+- Eşya düzenleme ve silme
+- Profil bilgilerini güncelleme
 
-### Yönetici Özellikleri
-- Kullanıcı yönetimi
-- İlan yönetimi
-- İstatistikler ve raporlar
-- Sistem ayarları
+### 🔐 Yönetici Özellikleri
+- Kullanıcı ve eşya ilanlarını yönetme
+- Talep edilen eşyaları onaylama/reddetme
+- Kategori ve durum güncellemeleri
+- Sistem raporları ve istatistikleri
 
-## Teknolojiler
+---
 
-- Backend: PHP (Yalnızca core PHP, framework kullanılmadan)
-- Frontend: HTML5, CSS3, JavaScript
-- CSS Framework: Tailwind CSS
-- Veritabanı: MySQL
+## ⚙️ Teknik Gereksinimler
 
-## Kurulum
+- **Backend**: Core PHP (framework kullanılmadan)
+- **Frontend**: HTML5, JavaScript, Tailwind CSS
+- **Veritabanı**: MySQL (MariaDB uyumlu)
+- **Sunucu Ortamı**: XAMPP / Laragon / MAMP (PHP 8.0+)
 
-1. XAMPP veya benzeri bir web sunucusu kurun
-2. Veritabanı ayarlarını `includes/db.php` dosyasında yapın
-3. Proje dosyalarını web sunucusunun root dizinine yükleyin
-4. Tarayıcıdan uygulamaya erişin
+### 💡 Güvenlik Özellikleri
+- `password_hash()` ile şifreleme
+- Session tabanlı giriş kontrolü
+- SQL injection önleme (hazırlanmış ifadeler)
+- XSS koruması ve input filtreleme
+- `htmlspecialchars()` ve `filter_input()` kullanımı
 
-## Default Login Credentials
+### 🌐 Uyumluluk
+- Tam responsive tasarım
+- Mobil cihazlarla uyumlu kullanıcı arayüzü
+- Türkçe dil desteği
+- SEO dostu URL yapıları
 
-### Admin Account
-- Email: admin@kampus.com
-- Password: 123456
+---
 
-### User Account
-- Email: user@kampus.com
-- Password: 123456
+## 🧩 Veritabanı Yapısı
 
-**Note: These are default credentials for development purposes. Please change them in production.**
+Veritabanı adı: `lost_found`  
+SQL yedeği: `lost_found.sql`
 
-## Veritabanı
+### 🗃️ Tablo Listesi
 
-Veritabanı şeması `lost_found.sql` dosyasında bulunur. Bu dosyayı MySQL sunucusuna import ederek veritabanı oluşturabilirsiniz.
+| Tablo Adı     | Açıklama                                |
+|---------------|------------------------------------------|
+| `users`       | Kayıtlı kullanıcı bilgileri              |
+| `items`       | Eşya ilanları (kayıp / bulunan)          |
+| `claims`      | Talep edilen eşyalar                     |
+| `categories`  | Eşya kategorileri (ör. telefon, anahtar) |
+| `statuses`    | Eşya durumları (bulundu, kayboldu)       |
 
-Veritabanı adı: `lost_found`
+---
 
-## Tablo Yapısı
-- `users`: Kullanıcı bilgileri
-- `items`: Kayıp/bulunan eşya bilgileri
-- `claims`: Eşya talep bilgileri
-- `categories`: Eşya kategorileri
-- `statuses`: Eşya durumları
+## 🛠️ Kurulum
 
-## Güvenlik Özellikleri
+1. XAMPP veya benzeri bir PHP/MySQL ortamı kurun
+2. `lost_found.sql` dosyasını veritabanınıza import edin
+3. `includes/db.php` dosyasındaki veritabanı bilgilerini güncelleyin
+4. Proje klasörünü sunucunun `htdocs/` dizinine taşıyın
+5. `http://localhost/proje-adi` üzerinden tarayıcıdan erişin
 
-- Şifre hashleme (password_hash kullanılıyor)
-- Session tabanlı oturum yönetimi
-- XSS koruması
-- SQL injection koruması
-- Input validation
+---
 
-## Ekran Görüntüleri
+## 🔐 Varsayılan Giriş Bilgileri
 
-![Ana Sayfa](assets/home.png)
-)
-![İlan Detay](screenshots/item-detail.png)
-![Kullanıcı Profili](screenshots/profile.png)
+### 👨‍💼 Admin Girişi
+- **Email:** admin@kampus.com  
+- **Şifre:** 123456
 
-## Video Demo
+### 👤 Kullanıcı Girişi
+- **Email:** user@kampus.com  
+- **Şifre:** 123456
 
-[![Video Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtube.com/watch?v=VIDEO_ID)
+> ⚠️ *Güvenlik nedeniyle canlı ortamda bu şifreleri değiştiriniz.*
 
-## Güvenlik Uyarısı
+---
 
-⚠️ GitHub'a yüklediğinizde hassas bilgileri (hosting şifreleri, API anahtarları vb.) gizlemeyi veya kaldırmayı unutmayın!
+## 🖼️ Ekran Görüntüleri
 
-- Veritabanı şifreleri
-- Hosting erişim bilgileri
+| Sayfa           | Görsel                        |
+|-----------------|-------------------------------|
+| Ana Sayfa       | ![Ana Sayfa](assets/home.png) |
+| Kullanıcı Profili | ![Profil](assets/profile.png) |
+
+---
+
+## 🎥 Video Demo
+
+🔗 [Video Demosu (Google Drive)](https://drive.google.com/file/d/12ONlWC8bFuIiAML5hbbhkhA6oPsQa0aA/view?usp=sharing)
+
+---
+
+## ⚠️ Güvenlik Uyarısı
+
+Aşağıdaki dosyaları `.gitignore` içerisine eklemeyi unutmayın:
+
+- `includes/db.php`
+- `.env` dosyaları
 - API anahtarları
-- Özel yapılandırma dosyaları
+- Hosting erişim bilgileri
 
-Bu bilgileri `.gitignore` dosyasına ekleyin veya deploy edilmeden önce kaldırın.
+Bu bilgiler *üretim ortamında (production)* kesinlikle paylaşılmamalıdır.
 
-## Lisans
+---
 
-MIT License
+## 📄 Lisans
+
+Bu proje açık kaynaklıdır. [MIT Lisansı](LICENSE) ile lisanslanmıştır.
